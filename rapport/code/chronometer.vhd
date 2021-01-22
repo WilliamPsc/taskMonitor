@@ -1,10 +1,11 @@
 -----------------------------------------------------------------
--- Engineer: Timoth� LANNUZEL & William PENSEC
+-- Engineer: Timothé LANNUZEL & William PENSEC
 -- Create Date: 03.01.2020 16:01:00
 -- Module Name: chronometer - Behavioral
--- Project Name: D�tection de d�passement de temps d'ex�cution
+-- Project Name: Détection de dépassement de temps d'exécution
 -- Revision: 1.0
 -----------------------------------------------------------------
+
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -38,16 +39,27 @@ begin
         if rising_edge(clk) then
             if load = '1' then
                 curr_value <= wcet;
-                cout <= '0';
             elsif reset = '1' then
                 curr_value <= (others => '0');
-                cout <= '0';
             elsif startStop = '1' and suspendResume = '0' and unsigned(curr_value) /= 0 then  -- 1 start | 0 resume
                 curr_value <= std_logic_vector(unsigned(curr_value) - 1);
             end if;
         end if;
+        
+    end process;
+    
+    test : process(curr_value) 
+    begin
         if startStop = '1' and unsigned(curr_value) = 0 then
             cout <= '1';
+        else 
+            cout <= '0';
+        end if;
+        if reset = '1' then
+            cout <= '0';
+        elsif load = '1' then 
+            cout <= '0';
         end if;
     end process;
+    
 end Behavioral;

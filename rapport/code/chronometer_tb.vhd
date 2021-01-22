@@ -47,9 +47,9 @@ begin
     clk_ch <= not clk_ch after 1 ns;
     startStop_ch <= '0', '1' after 5 ns;
     suspendResume_ch <= '0'; -- always active
-    load_ch <= '1', '0' after 4 ns; -- data are loaded after 4 ns
+    load_ch <= '1', '0' after 4 ns; -- 0 to stop data's loading
     reset_ch <= '0'; -- never reseted
-    wcet_ch <= std_logic_vector(to_unsigned(15, 16));
+    wcet_ch <= std_logic_vector(to_unsigned(7, 16));
     
     iut : entity work.chronometer(Behavioral)
     Port map(

@@ -1,0 +1,10 @@
+code/
+
+*.png
+
+*.aux
+*.bbl
+*.blg
+*.txt
+*.tex
+*.toc
