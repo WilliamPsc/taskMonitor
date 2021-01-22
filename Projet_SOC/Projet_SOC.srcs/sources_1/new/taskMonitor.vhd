@@ -3,7 +3,7 @@
 -- Create Date: 10.12.2020 16:22:12
 -- Module Name: taskMonitor - Behavioral
 -- Project Name: Détection de dépassement de temps d'exécution
--- Revision: 1.0
+-- Revision: 1.2
 -----------------------------------------------------------------
 
 
@@ -22,22 +22,16 @@ entity taskMonitor is
         mess_task : in std_logic_vector(3 downto 0);
         
         counter_interupt : out std_logic;
-------------------RAJOUTER----------------------
-        counter_interupt_test: out std_logic_vector(16 - 1 downto 0)
-        
-------------------RAJOUTER----------------------
-        
+        counter_interupt_test: out std_logic_vector(16 - 1 downto 0)  
     );
 end taskMonitor;
-
-
 
 architecture Behavioral of taskMonitor is 
 
 --------------------------------------------------
 ----------------------Signal----------------------
 --------------------------------------------------
-    --signal pour les chronos
+    --signaux pour les chronos
     signal sigstartStop :  std_logic_vector(3 downto 0);
     signal sigsuspendResume :  std_logic_vector(3 downto 0);
     signal sigload :  std_logic_vector(3 downto 0);
@@ -47,12 +41,9 @@ architecture Behavioral of taskMonitor is
     signal curChrono: std_logic_vector(3 downto 0) := (others => '0');  -- pour connaitre sur quelle chrono on est
     signal interrupt_timer : std_logic_vector(3 downto 0);
     
-------------------RAJOUTER----------------------
     signal curcounter_interupt_test : register_array;
     signal currTaskId : integer :=0;
     signal sigReset  :  std_logic_vector(3 downto 0);
-------------------RAJOUTER----------------------
-    
     
 --------------------------------------------------
 --------------------Components--------------------
@@ -91,14 +82,9 @@ begin
                 
             );
     end generate;
-    
-------------------RAJOUTER----------------------
-    
-    
-------------------RAJOUTER----------------------
+
     tache : process(clk_in)
     begin
-------------------RAJOUTER----------------------
               --Changement du WCET
         if reset_in = '1' then
             loop1 : for i in 0 to 3 LOOP
@@ -149,5 +135,4 @@ begin
         
     end process;
 
-    
 end Behavioral;

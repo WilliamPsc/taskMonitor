@@ -3,7 +3,7 @@
 -- Create Date: 03.01.2020 16:01:00
 -- Module Name: chronometer - Behavioral
 -- Project Name: Détection de dépassement de temps d'exécution
--- Revision: 1.0
+-- Revision: 1.2
 -----------------------------------------------------------------
 
 

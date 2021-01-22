@@ -202,43 +202,50 @@
 			\paragraph*{}
 			Le code du test bench est le code \ref{tbChronoCode} à la page \pageref{tbChronoCode}. Il s'articule de la manière suivante : tout d'abord comme d'habitude nous appellons le component à qui il fait référence, c'est à dire le chronomètre. Puis, on crée les signaux nécessaires pour assigner des valeurs aux ports du composant. Ensuite dans l'architecture comportementale du composant test, on affecte des valeurs aux signaux. Nous avons décidé de faire une horloge avec une période de 1 ns afin d'avoir quelque chose de rapide. La valeur \texttt{startStop\_ch} est initialisée à 0 et passe à 1 après 5 ns c'est à dire que le chronomètre ne démarrera qu'après 5 ns d'exécution de programme, cette valeur a été mise seulement dans un but de test mais en soit doit être initialisée à 1 lors de la création du chronomètre. La valeur \texttt{load\_ch} correspondant au chargement du \texttt{WCET} en mémoire; il est initialisé à 1, c'est à dire qu'on charge en mémoire la donnée dès qu'elle est disponible puis on passe cette valeur à 0 car on désire arrêter la mise en mémoire de la valeur afin de passer à la décrémentation. La valeur du \texttt{reset} est laissé à 0 car nous n'en avons pas besoin du tout mais si on passe cette valeur à 1 alors la donnée est mise à 0 comme convenu ! Enfin, la valeur du \texttt{wcet\_ch} est initialisée à 7.
 			
+			Un exemple d'exécution est proposé à l'image \ref{chronoTB} à la page \pageref{chronoTB}. On distingue sur l'image toutes les étapes citées dans le paragraphe précédent.
+			
 		\subsection{Moniteur de tâches}
 			\paragraph*{}
-	
+			
 	
 		\subsection{TestBench Moniteur de tâches}
 			\paragraph*{}
 			
 			
 	\section{Résultats}
-		%\paragraph*{}
-		
 		\subsection{Chronomètre}
 			\paragraph*{}
 			
 			\begin{figure}[H]
 				\centering
 					\includegraphics[scale=0.5]{chrono_tb.png}
-					\caption{Testbench Chronomètre}
+					\caption{Testbench chronomètre}
 				\label{chronoTB}
 			\end{figure}
 			
-		%\subsection{}
-			%\paragraph*{}
+		\subsection{Moniteur de tâches}
+			\paragraph*{}
 	
-	
+			\begin{figure}[H]
+				\centering
+					\includegraphics[scale=0.5]{moniteur_tb.png}
+					\caption{Testbench moniteur de tâches}
+				\label{monitorTB}
+			\end{figure}
+			
+			
 	\section{Code}
 		\subsection{Chronomètre}
-			\lstinputlisting[caption={Chronomètre}, label={chronoCode}]{"code/chronometer.vhd"}
+			\lstinputlisting[caption={Chronomètre}, label={chronoCode}]{"../Projet_SOC/Projet_SOC.srcs/sources_1/new/chronometer.vhd"}
 		
 		\subsection{TestBench Chronomètre}
-			\lstinputlisting[caption={TestBench Chronomètre}, label={tbChronoCode}]{"code/chronometer_tb.vhd"}
+			\lstinputlisting[caption={TestBench chronomètre}, label={tbChronoCode}]{"../Projet_SOC/Projet_SOC.srcs/sim_1/new/chronometer_tb.vhd"}
 			
 		\subsection{Moniteur de tâches}
+			\lstinputlisting[caption={Moniteur de tâches}, label={taskMonitorCode}]{"../Projet_SOC/Projet_SOC.srcs/sources_1/new/taskMonitor.vhd"}
 		
-			
 		\subsection{TestBench Moniteur de tâches}
-		
+			\lstinputlisting[caption={TestBench moniteur de tâches}, label={tbMonitorCode}]{"../Projet_SOC/Projet_SOC.srcs/sim_1/new/tasksMonitor_tb.vhd"}
 		
 	\section{Continuité du projet}
 		\paragraph*{}

@@ -3,7 +3,7 @@
 -- Create Date: 19.01.2021 12:09:40
 -- Module Name: taskMonitor_tb - Behavioral
 -- Project Name: Détection de dépassement de temps d'exécution
--- Revision: 1.0
+-- Revision: 1.2
 -----------------------------------------------------------------
 
 
