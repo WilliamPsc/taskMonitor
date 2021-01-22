@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.26)  22 JAN 2021 00:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.26)  22 JAN 2021 18:01
 entering extended mode
 **./WilliamPENSEC_TimotheLANNUZEL_Projet_SOC.tex
 (WilliamPENSEC_TimotheLANNUZEL_Projet_SOC.tex
@@ -741,7 +741,11 @@ Package caption Info: listings package is loaded.
 (C:\Users\willi\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(WilliamPENSEC_TimotheLANNUZEL_Projet_SOC.aux)
+(WilliamPENSEC_TimotheLANNUZEL_Projet_SOC.aux
+
+LaTeX Warning: Label `chronoTB' multiply defined.
+
+)
 \openout1 = `WilliamPENSEC_TimotheLANNUZEL_Projet_SOC.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
@@ -881,23 +885,13 @@ NUZEL_Projet_SOC.toc)
  [1
 
 ]
+<schemagen.png, id=23, 688.5725pt x 360.34625pt>
+File: schemagen.png Graphic file (type png)
+ <use schemagen.png>
+Package pdftex.def Info: schemagen.png used on input line 180.
+(pdftex.def)             Requested size: 344.2854pt x 180.17268pt.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 188.
 
-LaTeX Warning: File `schemagen.png' not found on input line 180.
-
-
-! Package pdftex.def Error: File `schemagen.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.180 				\includegraphics[scale=1]{schemagen.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 180.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -907,51 +901,81 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] <chrono.png, id=30, 309.40594pt x 213.04594pt>
+[2 <./schemagen.png>] <chrono.png, id=31, 309.40594pt x 213.04594pt>
 File: chrono.png Graphic file (type png)
  <use chrono.png>
 Package pdftex.def Info: chrono.png used on input line 195.
 (pdftex.def)             Requested size: 309.40518pt x 213.04541pt.
  [3 <./chrono.png>]
-<chrono_tb.png, id=35, 896.59969pt x 454.69875pt>
+<moniteur.png, id=37, 798.985pt x 492.84125pt>
+File: moniteur.png Graphic file (type png)
+ <use moniteur.png>
+Package pdftex.def Info: moniteur.png used on input line 213.
+(pdftex.def)             Requested size: 399.49152pt x 246.42001pt.
+ <chrono_tb.png, id=38, 877.77937pt x 425.33907pt>
 File: chrono_tb.png Graphic file (type png)
- <use chrono_tb.png>
-Package pdftex.def Info: chrono_tb.png used on input line 221.
-(pdftex.def)             Requested size: 448.29875pt x 227.34882pt.
 
-Overfull \hbox (30.04507pt too wide) in paragraph at lines 221--222
+<use chrono_tb.png>
+Package pdftex.def Info: chrono_tb.png used on input line 228.
+(pdftex.def)             Requested size: 438.88861pt x 212.669pt.
+
+Overfull \hbox (20.63493pt too wide) in paragraph at lines 228--229
  [][] 
  []
 
-[4 <./chrono_tb.png>] (code/chronometer.vhd
+[4 <./moniteur.png>]
+
+LaTeX Warning: File `moniteur_tb.png' not found on input line 238.
+
+
+! Package pdftex.def Error: File `moniteur_tb.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.238 ...cludegraphics[scale=0.5]{moniteur_tb.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[5 <./chrono_tb.png>] (../Projet_SOC/Projet_SOC.srcs/sources_1/new/chronometer.vhd
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 1.
- [5]) (code/chronometer_tb.vhd [6]) [7]
-(WilliamPENSEC_TimotheLANNUZEL_Projet_SOC.aux) ) 
+ [6])
+(../Projet_SOC/Projet_SOC.srcs/sim_1/new/chronometer_tb.vhd [7]) [8]
+(../Projet_SOC/Projet_SOC.srcs/sources_1/new/taskMonitor.vhd [9] [10] [11])
+(../Projet_SOC/Projet_SOC.srcs/sim_1/new/tasksMonitor_tb.vhd [12]) [13] [14]
+(WilliamPENSEC_TimotheLANNUZEL_Projet_SOC.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 16208 strings out of 493333
- 297677 string characters out of 3139194
- 521239 words of memory out of 3000000
- 19444 multiletter control sequences out of 15000+200000
+ 16259 strings out of 493333
+ 298846 string characters out of 3139194
+ 622241 words of memory out of 3000000
+ 19486 multiletter control sequences out of 15000+200000
  17781 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,12n,73p,1458b,1866s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\willi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
-i600\ecrm1000.pk> <C:\Users\willi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.pk> <C:\Users\wil
-li\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\willi\AppData\Local\MiKTeX\2.9\fon
-ts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Users\willi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ectt1200.pk> <C:\Users\willi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\willi\A
-ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\willi\AppData\Local\MiKTeX\2.9\fonts\p
-k\ljfour\jknappen\ec\dpi600\ecti1440.pk> <C:\Users\willi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecb
-x2488.pk> <C:\Users\willi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1440.pk> <C:\Users\willi\AppDa
-ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\willi\AppData\Local\MiKTeX\2.9\fonts\pk\lj
-four\jknappen\ec\dpi600\eccc1728.pk> <C:\Users\willi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc207
-4.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on WilliamPENSEC_TimotheLANNUZEL_Projet_SOC.pdf (8 pages, 186936 bytes).
+ <C:\Users\willi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\willi\AppData\Loca
+l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.pk> <C:\Users\willi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
+nappen\ec\dpi600\ectt1200.pk> <C:\Users\willi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <
+C:\Users\willi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Users\willi\AppData\Local\Mi
+KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\willi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
+en\ec\dpi600\ecrm1200.pk> <C:\Users\willi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1440.pk> <C:\U
+sers\willi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\willi\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1440.pk> <C:\Users\willi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
+c\dpi600\ecrm1440.pk> <C:\Users\willi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728.pk> <C:\Users
+\willi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc2074.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb>
+Output written on WilliamPENSEC_TimotheLANNUZEL_Projet_SOC.pdf (15 pages, 232121 bytes).
 PDF statistics:
- 420 PDF objects out of 1000 (max. 8388607)
+ 453 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

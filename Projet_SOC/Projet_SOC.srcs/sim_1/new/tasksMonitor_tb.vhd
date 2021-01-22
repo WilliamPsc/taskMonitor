@@ -27,9 +27,7 @@ architecture Behavioral of taskMonitor_tb is
             mess_task : in std_logic_vector(3 downto 0);
             
             counter_interupt : out std_logic;
-------------------RAJOUTER----------------------
-            counter_interupt_test: out std_logic_vector(16 - 1 downto 0)
-------------------RAJOUTER----------------------
+            counter_interupt_test: out std_logic_vector(15 downto 0)
             
         ); 
     end component taskMonitor;
@@ -40,9 +38,7 @@ architecture Behavioral of taskMonitor_tb is
     signal wcet : std_logic_vector(15 downto 0);
     signal message : std_logic_vector(3 downto 0);
     signal compteur : std_logic;
-------------------RAJOUTER----------------------
     signal compteur_test: std_logic_vector(15 downto 0);
-------------------RAJOUTER----------------------
     
 begin
     clk <= not clk after 1 ns;
@@ -72,10 +68,7 @@ begin
         wcet_task => wcet,
         mess_task => message,
         counter_interupt => compteur,
-------------------RAJOUTER----------------------
         counter_interupt_test =>compteur_test
-------------------RAJOUTER----------------------
-    
     );
 
 end Behavioral;
