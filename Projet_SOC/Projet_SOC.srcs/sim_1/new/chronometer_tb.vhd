@@ -1,8 +1,8 @@
 ----------------------------------------------------------------------------------
--- Engineer: Timothé LANNUZEL & William PENSEC
+-- Engineer: TimothÃ© LANNUZEL & William PENSEC
 -- Create Date: 05.01.2020 17:21:00
 -- Module Name: chronometer_tb - Behavioral
--- Project Name: Détection de dépassement de temps d'exécution
+-- Project Name: DÃ©tection de dÃ©passement de temps d'exÃ©cution
 -- Revision: 1.0
 ----------------------------------------------------------------------------------
 
@@ -47,8 +47,8 @@ begin
     clk_ch <= not clk_ch after 1 ns;
     startStop_ch <= '0', '1' after 5 ns;
     suspendResume_ch <= '0'; -- always active
-    load_ch <= '1', '0' after 4 ns;
-    reset_ch <= '0';-- '1' after 15 ns, '0' after 16 ns; -- never reseted
+    load_ch <= '1', '0' after 4 ns; -- 0 to stop data's loading
+    reset_ch <= '0'; -- never reseted
     wcet_ch <= std_logic_vector(to_unsigned(7, 16));
     
     iut : entity work.chronometer(Behavioral)

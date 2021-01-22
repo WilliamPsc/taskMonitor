@@ -1,10 +1,10 @@
-----------------------------------------------------------------------------------
--- Engineer: Timothé LANNUZEL & William PENSEC
+-----------------------------------------------------------------
+-- Engineer: TimothÃ© LANNUZEL & William PENSEC
 -- Create Date: 03.01.2020 16:01:00
 -- Module Name: chronometer - Behavioral
--- Project Name: Détection de dépassement de temps d'exécution
+-- Project Name: DÃ©tection de dÃ©passement de temps d'exÃ©cution
 -- Revision: 1.0
-----------------------------------------------------------------------------------
+-----------------------------------------------------------------
 
 
 library IEEE;

@@ -1,22 +1,10 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
+-----------------------------------------------------------------
+-- Engineer: Timothé LANNUZEL & William PENSEC
 -- Create Date: 10.12.2020 16:22:12
--- Design Name: 
 -- Module Name: taskMonitor - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
+-- Project Name: Détection de dépassement de temps d'exécution
+-- Revision: 1.0
+-----------------------------------------------------------------
 
 
 library IEEE;
