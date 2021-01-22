@@ -1,0 +1,176 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Jan 21 21:34:50 2021
+# Process ID: 14372
+# Current directory: D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10724 D:\Mes_dossiers\Documents\Travail\Master\M2\SOC\Projet_SOC\Projet_SOC.xpr
+# Log file: D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/vivado.log
+# Journal file: D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/programme/Vivado/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 807.430 ; gain = 116.977
+update_compile_order -fileset sources_1
+set_property top taskMonitor_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'taskMonitor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj taskMonitor_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sources_1/new/taskMonitor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity taskMonitor
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sim_1/new/taskMonitor_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity taskMonitor_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/programme/Vivado/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto c9bbfa03168d44b493828990a9769180 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot taskMonitor_tb_behav xil_defaultlib.taskMonitor_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 3 elements ; expected 4 [D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sim_1/new/taskMonitor_tb.vhd:55]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit taskmonitor_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 836.035 ; gain = 3.133
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'taskMonitor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj taskMonitor_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sim_1/new/taskMonitor_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity taskMonitor_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/programme/Vivado/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto c9bbfa03168d44b493828990a9769180 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot taskMonitor_tb_behav xil_defaultlib.taskMonitor_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 3 elements ; expected 4 [D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sim_1/new/taskMonitor_tb.vhd:55]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit taskmonitor_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'taskMonitor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj taskMonitor_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sim_1/new/taskMonitor_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity taskMonitor_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/programme/Vivado/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto c9bbfa03168d44b493828990a9769180 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot taskMonitor_tb_behav xil_defaultlib.taskMonitor_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2335] case statement does not cover all choices. 'others' clause is needed [D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sources_1/new/taskMonitor.vhd:114]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit taskmonitor_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'taskMonitor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj taskMonitor_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sources_1/new/taskMonitor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity taskMonitor
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sim_1/new/taskMonitor_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity taskMonitor_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/programme/Vivado/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto c9bbfa03168d44b493828990a9769180 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot taskMonitor_tb_behav xil_defaultlib.taskMonitor_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2335] case statement does not cover all choices. 'others' clause is needed [D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sources_1/new/taskMonitor.vhd:114]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit taskmonitor_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'taskMonitor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj taskMonitor_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sources_1/new/taskMonitor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity taskMonitor
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sim_1/new/taskMonitor_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity taskMonitor_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/programme/Vivado/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto c9bbfa03168d44b493828990a9769180 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot taskMonitor_tb_behav xil_defaultlib.taskMonitor_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.chronometer [chronometer_default]
+Compiling architecture behavioral of entity xil_defaultlib.taskMonitor [taskmonitor_default]
+Compiling architecture behavioral of entity xil_defaultlib.taskmonitor_tb
+Built simulation snapshot taskMonitor_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 855.340 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "taskMonitor_tb_behav -key {Behavioral:sim_1:Functional:taskMonitor_tb} -tclbatch {taskMonitor_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.

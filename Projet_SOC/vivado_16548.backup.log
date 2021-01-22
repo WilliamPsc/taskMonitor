@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Jan 17 19:08:12 2021
+# Process ID: 16548
+# Current directory: D:/William/Scolaire/Etudes/M2_LSE/SOC/Projet_SOC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24116 D:\William\Scolaire\Etudes\M2_LSE\SOC\Projet_SOC\Projet_SOC.xpr
+# Log file: D:/William/Scolaire/Etudes/M2_LSE/SOC/Projet_SOC/vivado.log
+# Journal file: D:/William/Scolaire/Etudes/M2_LSE/SOC/Projet_SOC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/William/Scolaire/Etudes/M2_LSE/SOC/Projet_SOC/Projet_SOC.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/William/Scolaire/Etudes/M2_LSE/SYC/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 832.816 ; gain = 128.910
+update_compile_order -fileset sources_1
+close_project
+open_project D:/William/Scolaire/Etudes/M2_LSE/SOC/Detect_depassement/Detect_depassement.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/William/Scolaire/Etudes/M2_LSE/SYC/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+file mkdir D:/William/Scolaire/Etudes/M2_LSE/SOC/Detect_depassement/Detect_depassement.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/William/Scolaire/Etudes/M2_LSE/SOC/Detect_depassement/Detect_depassement.srcs/sim_1/new/chronometer_tb.vhd w ]
+add_files -fileset sim_1 D:/William/Scolaire/Etudes/M2_LSE/SOC/Detect_depassement/Detect_depassement.srcs/sim_1/new/chronometer_tb.vhd
+update_compile_order -fileset sim_1
+set_property target_language VHDL [current_project]
+check_syntax
+INFO: [Vivado 12-4796] No errors or warning reported.
+check_syntax -fileset sources-1
+ERROR: [Common 17-162] Invalid option value specified for '-fileset'.
+check_syntax -fileset sources_1
+INFO: [Vivado 12-4796] No errors or warning reported.
+check_syntax -fileset sim_1
+INFO: [Vivado 12-4796] No errors or warning reported.
+ls
+ambiguous command name "ls": lsearch lset lsort
+pwd
+D:/William/Scolaire/Etudes/M2_LSE/SOC/Projet_SOC
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jan 17 19:19:50 2021...

@@ -1,0 +1,640 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 14372
+License: Customer
+
+Current time: 	Thu Jan 21 21:35:13 CET 2021
+Time zone: 	Central European Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 15 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/programme/Vivado/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	D:/programme/Vivado/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	Lannuzel
+User home directory: C:/Users/Lannuzel
+User working directory: D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC
+User country: 	FR
+User language: 	fr
+User locale: 	fr_FR
+
+RDI_BASEROOT: D:/programme/Vivado/Vivado
+HDI_APPROOT: D:/programme/Vivado/Vivado/2017.4
+RDI_DATADIR: D:/programme/Vivado/Vivado/2017.4/data
+RDI_BINDIR: D:/programme/Vivado/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/Lannuzel/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/Lannuzel/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/Lannuzel/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	D:/programme/Vivado/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/vivado.log
+Vivado journal file location: 	D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/vivado.jou
+Engine tmp dir: 	D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/.Xil/Vivado-14372-DESKTOP-7CVBQJS
+
+GUI allocated memory:	192 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 533 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 47 MB (+46709kb) [00:00:11]
+// [Engine Memory]: 467 MB (+338008kb) [00:00:11]
+// Opening Vivado Project: D:\Mes_dossiers\Documents\Travail\Master\M2\SOC\Projet_SOC\Projet_SOC.xpr. Version: Vivado v2017.4 
+// bs (cj):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.xpr 
+// [GUI Memory]: 55 MB (+5733kb) [00:00:12]
+// [Engine Memory]: 502 MB (+12130kb) [00:00:12]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 589 MB (+65139kb) [00:00:15]
+// [GUI Memory]: 73 MB (+16511kb) [00:00:16]
+// [Engine Memory]: 622 MB (+3947kb) [00:00:17]
+// [GUI Memory]: 82 MB (+4854kb) [00:00:17]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/programme/Vivado/Vivado/2017.4/data/ip'. 
+// Project name: Projet_SOC; location: D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC; part: xc7z020clg484-1
+// HMemoryUtils.trashcanNow. Engine heap size: 639 MB. GUI used memory: 42 MB. Current time: 1/21/21 9:35:18 PM CET
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 807.430 ; gain = 116.977 
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 42 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taskMonitor(Behavioral) (taskMonitor.vhd)]", 1); // B (D, cj)
+// PAPropertyPanels.initPanels (taskMonitor.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taskMonitor(Behavioral) (taskMonitor.vhd)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taskMonitor(Behavioral) (taskMonitor.vhd)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Elapsed time: 29 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_SETTINGS, "Settings"); // Z (cj)
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // U (cj)
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // U (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_SETTINGS, "Settings"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER, "Project Manager"); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_SETTINGS, "Settings"); // Z (cj)
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // U (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4, true); // B (D, cj) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5, true); // B (D, cj) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // B (D, cj)
+// Elapsed time: 11 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, taskMonitor_tb(Behavioral) (taskMonitor_tb.vhd)]", 7); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, taskMonitor_tb(Behavioral) (taskMonitor_tb.vhd)]", 7); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Disabled Sources]", 8); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources]", 2); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources]", 2); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Disabled Sources]", 8); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, taskMonitor_tb(Behavioral) (taskMonitor_tb.vhd)]", 7); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, taskMonitor_tb(Behavioral) (taskMonitor_tb.vhd)]", 7); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, taskMonitor_tb(Behavioral) (taskMonitor_tb.vhd)]", 7); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, taskMonitor_tb(Behavioral) (taskMonitor_tb.vhd), iut : taskMonitor(Behavioral) (taskMonitor.vhd)]", 8); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, taskMonitor_tb(Behavioral) (taskMonitor_tb.vhd)]", 7, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, taskMonitor_tb(Behavioral) (taskMonitor_tb.vhd)]", 7, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor_tb.vhd", 1); // k (j, cj)
+// [GUI Memory]: 87 MB (+1418kb) [00:02:41]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taskMonitor(Behavioral) (taskMonitor.vhd)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taskMonitor(Behavioral) (taskMonitor.vhd)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taskMonitor(Behavioral) (taskMonitor.vhd)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Elapsed time: 46 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor_tb.vhd", 1); // k (j, cj)
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, chronometer_tb(Behavioral) (chronometer_tb.vhd)]", 10, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, chronometer_tb(Behavioral) (chronometer_tb.vhd)]", 10, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor.vhd", 2); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor_tb.vhd", 1); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor.vhd", 2); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor_tb.vhd", 1); // k (j, cj)
+// [GUI Memory]: 94 MB (+2693kb) [00:04:00]
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chronometer_tb.vhd", 3); // k (j, cj)
+selectCodeEditor("chronometer_tb.vhd", 129, 413); // cd (w, cj)
+selectCodeEditor("chronometer_tb.vhd", 129, 413, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("chronometer_tb.vhd", 131, 398); // cd (w, cj)
+selectCodeEditor("chronometer_tb.vhd", 131, 398, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("chronometer_tb.vhd", 70, 226); // cd (w, cj)
+selectCodeEditor("chronometer_tb.vhd", 70, 226, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("chronometer_tb.vhd", 49, 159); // cd (w, cj)
+selectCodeEditor("chronometer_tb.vhd", 49, 159, false, false, false, false, true); // cd (w, cj) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor_tb.vhd", 1); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor.vhd", 2); // k (j, cj)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 208 seconds
+selectCodeEditor("taskMonitor.vhd", 86, 176); // cd (w, cj)
+typeControlKey((HResource) null, "taskMonitor.vhd", 'c'); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 581, 394); // cd (w, cj)
+typeControlKey((HResource) null, "taskMonitor.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 193, 468); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 165, 438); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 154, 457); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 109, 484); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 65, 461); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 194, 413); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 239, 419); // cd (w, cj)
+// Elapsed time: 10 seconds
+selectCodeEditor("taskMonitor.vhd", 76, 299); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 76, 299, false, false, false, false, true); // cd (w, cj) - Double Click
+// Elapsed time: 28 seconds
+selectCodeEditor("taskMonitor.vhd", 126, 402); // cd (w, cj)
+// [Engine Memory]: 659 MB (+6050kb) [00:10:22]
+// Elapsed time: 81 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor_tb.vhd", 1); // k (j, cj)
+// Elapsed time: 28 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor.vhd", 2); // k (j, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor_tb.vhd", 1); // k (j, cj)
+// Elapsed time: 30 seconds
+selectCodeEditor("taskMonitor_tb.vhd", 71, 214); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor.vhd", 2); // k (j, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, chronometer_tb(Behavioral) (chronometer_tb.vhd)]", 10, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, chronometer_tb(Behavioral) (chronometer_tb.vhd)]", 10, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectCodeEditor("chronometer_tb.vhd", 102, 253); // cd (w, cj)
+typeControlKey((HResource) null, "chronometer_tb.vhd", 'c'); // cd (w, cj)
+// [GUI Memory]: 101 MB (+2316kb) [00:12:02]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor_tb.vhd", 1); // k (j, cj)
+typeControlKey((HResource) null, "taskMonitor_tb.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 281, 342); // cd (w, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 316, 346); // cd (w, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 306, 316); // cd (w, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 286, 347); // cd (w, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 296, 346); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("taskMonitor_tb.vhd", 332, 352); // cd (w, cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+typeControlKey((HResource) null, "taskMonitor_tb.vhd", 'c'); // cd (w, cj)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("taskMonitor_tb.vhd", 206, 382); // cd (w, cj)
+typeControlKey((HResource) null, "taskMonitor_tb.vhd", 'v'); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 24 seconds
+selectCodeEditor("taskMonitor_tb.vhd", 295, 360); // cd (w, cj)
+// Elapsed time: 68 seconds
+selectCodeEditor("taskMonitor_tb.vhd", 333, 250); // cd (w, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 356, 242); // cd (w, cj)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chronometer_tb.vhd", 3); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor_tb.vhd", 1); // k (j, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 100, 247); // cd (w, cj)
+typeControlKey((HResource) null, "taskMonitor_tb.vhd", 'c'); // cd (w, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 352, 246); // cd (w, cj)
+typeControlKey((HResource) null, "taskMonitor_tb.vhd", 'v'); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chronometer_tb.vhd", 3); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor_tb.vhd", 1); // k (j, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 111, 246); // cd (w, cj)
+typeControlKey(null, null, 'z');
+selectCodeEditor("taskMonitor_tb.vhd", 143, 248); // cd (w, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 122, 258); // cd (w, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 98, 247); // cd (w, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 119, 281); // cd (w, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 109, 259); // cd (w, cj)
+typeControlKey((HResource) null, "taskMonitor_tb.vhd", 'c'); // cd (w, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 124, 284); // cd (w, cj)
+typeControlKey((HResource) null, "taskMonitor_tb.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 406, 287); // cd (w, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 469, 267); // cd (w, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 495, 251); // cd (w, cj)
+// Elapsed time: 10 seconds
+selectCodeEditor("taskMonitor_tb.vhd", 323, 271); // cd (w, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 469, 282); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 127 seconds
+selectCodeEditor("taskMonitor_tb.vhd", 397, 165); // cd (w, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taskMonitor(Behavioral) (taskMonitor.vhd)]", 1); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taskMonitor(Behavioral) (taskMonitor.vhd)]", 1); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taskMonitor(Behavioral) (taskMonitor.vhd)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, taskMonitor_tb(Behavioral) (taskMonitor_tb.vhd)]", 7, true, false, false, false, true, false); // B (D, cj) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, cj)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top taskMonitor_tb [get_filesets sim_1] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// bs (cj):  Set as Top : addNotify
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top_lib xil_defaultlib [get_filesets sim_1] 
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Set as Top"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 40 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9, true); // u (O, cj) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 9, true); // u (O, cj) - Node
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 8); // u (O, cj)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 8); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 9); // u (O, cj)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 9); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug]", 11); // u (O, cj)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug]", 11); // u (O, cj)
+// Elapsed time: 95 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 7, false); // u (O, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cj):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'taskMonitor_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj taskMonitor_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sources_1/new/taskMonitor.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity taskMonitor INFO: [VRFC 10-163] Analyzing VHDL file "D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sim_1/new/taskMonitor_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity taskMonitor_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '3' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Vivado Simulator 2017.4 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved. Running: D:/programme/Vivado/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto c9bbfa03168d44b493828990a9769180 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot taskMonitor_tb_behav xil_defaultlib.taskMonitor_tb -log elaborate.log  Using 2 slave threads. Starting static elaboration ERROR: [VRFC 10-664] expression has 3 elements ; expected 4 [D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sim_1/new/taskMonitor_tb.vhd:55] ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit taskmonitor_tb in library work failed. 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-99] Step results log file:'D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 836.035 ; gain = 3.133 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 10 seconds
+// Elapsed time: 10 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (A, G)
+// a (cj): Critical Messages: addNotify
+// Elapsed time: 48 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cj)
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 7, false); // u (O, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cj):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'taskMonitor_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvhdl --incr --relax -prj taskMonitor_tb_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sim_1/new/taskMonitor_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity taskMonitor_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Vivado Simulator 2017.4 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved. Running: D:/programme/Vivado/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto c9bbfa03168d44b493828990a9769180 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot taskMonitor_tb_behav xil_defaultlib.taskMonitor_tb -log elaborate.log  Using 2 slave threads. Starting static elaboration ERROR: [VRFC 10-664] expression has 3 elements ; expected 4 [D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sim_1/new/taskMonitor_tb.vhd:55] ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit taskmonitor_tb in library work failed. 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-99] Step results log file:'D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 45 seconds
+// Elapsed time: 46 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (A, G)
+// a (cj): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, "Open Messages View"); // a (a)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Critical Messages"); // a (cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, launch_simulation. , [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim/elaborate.log' file for more information.. ]", 2, false); // ah (O, cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, launch_simulation. , [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim/elaborate.log' file for more information.. ]", 2, false, false, false, false, false, true); // ah (O, cj) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, launch_simulation. , [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim/elaborate.log' file for more information.. ]", 2, false, false, false, false, true, false); // ah (O, cj) - Popup Trigger
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, launch_simulation. , [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim/elaborate.log' file for more information.. ]", 2, false); // ah (O, cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, launch_simulation. , [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim/elaborate.log' file for more information.. ]", 2, false, false, false, false, false, true); // ah (O, cj) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, launch_simulation. , [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim/elaborate.log' file for more information.. ]", 2, false, false, false, false, true, false); // ah (O, cj) - Popup Trigger
+// Elapsed time: 34 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, cj)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cj)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // Z (cj)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // Z (cj)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // Z (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // Z (cj)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // Z (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation]", 4); // ah (O, cj)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1]", 5); // ah (O, cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-664] expression has 3 elements ; expected 4 [D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sim_1/new/taskMonitor_tb.vhd:55]. ]", 6, false); // ah (O, cj)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\Mes_dossiers\Documents\Travail\Master\M2\SOC\Projet_SOC\Projet_SOC.srcs\sim_1\new\taskMonitor_tb.vhd;-;;-;16;-;line;-;55;-;;-;16;-;"); // ah (O, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 209, 139); // cd (w, cj)
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chronometer_tb.vhd", 3); // k (j, cj)
+// Elapsed time: 10 seconds
+selectCodeEditor("chronometer_tb.vhd", 300, 223); // cd (w, cj)
+selectCodeEditor("chronometer_tb.vhd", 282, 216); // cd (w, cj)
+selectCodeEditor("chronometer_tb.vhd", 282, 216, false, false, false, false, true); // cd (w, cj) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor.vhd", 2); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor_tb.vhd", 1); // k (j, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 297, 311); // cd (w, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 334, 349); // cd (w, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 339, 366); // cd (w, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 337, 381); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 7, false); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 2); // u (O, cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 7, false); // u (O, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cj):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'taskMonitor_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj taskMonitor_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sim_1/new/taskMonitor_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity taskMonitor_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Vivado Simulator 2017.4 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved. Running: D:/programme/Vivado/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto c9bbfa03168d44b493828990a9769180 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot taskMonitor_tb_behav xil_defaultlib.taskMonitor_tb -log elaborate.log  Using 2 slave threads. Starting static elaboration ERROR: [VRFC 10-2335] case statement does not cover all choices. 'others' clause is needed [D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sources_1/new/taskMonitor.vhd:114] ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit taskmonitor_tb in library work failed. 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-99] Step results log file:'D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 7 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (A, G)
+// a (cj): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-2335] case statement does not cover all choices. 'others' clause is needed [D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sources_1/new/taskMonitor.vhd:114]. ]", 6, false); // ah (O, cj)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\Mes_dossiers\Documents\Travail\Master\M2\SOC\Projet_SOC\Projet_SOC.srcs\sources_1\new\taskMonitor.vhd;-;;-;16;-;line;-;114;-;;-;16;-;"); // ah (O, cj)
+// [GUI Memory]: 106 MB (+136kb) [00:24:46]
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor_tb.vhd", 1); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chronometer_tb.vhd", 3); // k (j, cj)
+selectCodeEditor("chronometer_tb.vhd", 191, 268, false, false, false, true, false); // cd (w, cj) - Popup Trigger
+selectCodeEditor("chronometer_tb.vhd", 127, 248); // cd (w, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 50 MB. Current time: 1/21/21 10:00:05 PM CET
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 1); // i (N, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, chronometer.vhd]", 3, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, chronometer.vhd]", 3, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectCodeEditor("chronometer.vhd", 245, 298); // cd (w, cj)
+selectCodeEditor("chronometer.vhd", 245, 298, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("chronometer.vhd", 224, 297); // cd (w, cj)
+selectCodeEditor("chronometer.vhd", 218, 298); // cd (w, cj)
+selectCodeEditor("chronometer.vhd", 218, 298, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("chronometer.vhd", 242, 300); // cd (w, cj)
+selectCodeEditor("chronometer.vhd", 242, 300, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("chronometer.vhd", 359, 255); // cd (w, cj)
+selectCodeEditor("chronometer.vhd", 144, 0); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chronometer_tb.vhd", 3); // k (j, cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-2335] case statement does not cover all choices. 'others' clause is needed [D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sources_1/new/taskMonitor.vhd:114]. ]", 6, false); // ah (O, cj)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\Mes_dossiers\Documents\Travail\Master\M2\SOC\Projet_SOC\Projet_SOC.srcs\sources_1\new\taskMonitor.vhd;-;;-;16;-;line;-;114;-;;-;16;-;"); // ah (O, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chronometer.vhd", 4); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor_tb.vhd", 1); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chronometer.vhd", 4); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chronometer_tb.vhd", 3); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chronometer.vhd", 4); // k (j, cj)
+selectCodeEditor("chronometer.vhd", 205, 296); // cd (w, cj)
+selectCodeEditor("chronometer.vhd", 213, 298); // cd (w, cj)
+typeControlKey((HResource) null, "chronometer.vhd", 'c'); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor.vhd", 2); // k (j, cj)
+selectCodeEditor("taskMonitor.vhd", 86, 280); // cd (w, cj)
+typeControlKey((HResource) null, "taskMonitor.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 89, 276); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 196, 320); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 18 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, cj)
+selectMenuItem(RDIResourceCommand.RDICommands_REDO, "Redo"); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, cj)
+selectCodeEditor("taskMonitor.vhd", 171, 214); // cd (w, cj)
+typeControlKey((HResource) null, "taskMonitor.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 289, 213); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 245, 265); // cd (w, cj)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("taskMonitor.vhd", 193, 294); // cd (w, cj)
+typeControlKey((HResource) null, "taskMonitor.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 167, 426); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 199, 294); // cd (w, cj)
+// Elapsed time: 15 seconds
+typeControlKey(null, null, 'z');
+// Elapsed time: 31 seconds
+selectCodeEditor("taskMonitor.vhd", 313, 360); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 313, 360, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("taskMonitor.vhd", 91, 226); // cd (w, cj)
+// Elapsed time: 10 seconds
+selectCodeEditor("taskMonitor.vhd", 258, 225); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 91, 228); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 163, 228); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chronometer_tb.vhd", 3); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor.vhd", 2); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor_tb.vhd", 1); // k (j, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 108, 211); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor.vhd", 2); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor_tb.vhd", 1); // k (j, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 131, 214); // cd (w, cj)
+selectCodeEditor("taskMonitor_tb.vhd", 110, 209); // cd (w, cj)
+typeControlKey((HResource) null, "taskMonitor_tb.vhd", 'c'); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor.vhd", 2); // k (j, cj)
+selectCodeEditor("taskMonitor.vhd", 118, 453); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 121, 452, false, true, false, false, false); // cd (w, cj) - Control Key
+typeControlKey((HResource) null, "taskMonitor.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 380, 386); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 119, 278); // cd (w, cj)
+typeControlKey((HResource) null, "taskMonitor.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 241, 373); // cd (w, cj)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("taskMonitor.vhd", 114, 238); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "chronometer_tb.vhd", 3); // k (j, cj)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "taskMonitor.vhd", 2); // k (j, cj)
+selectCodeEditor("taskMonitor.vhd", 122, 249); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 122, 280); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 118, 318); // cd (w, cj)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("taskMonitor.vhd", 114, 349); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 125, 347); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 122, 388); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 7, false); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // u (O, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cj):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'taskMonitor_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj taskMonitor_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sources_1/new/taskMonitor.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity taskMonitor INFO: [VRFC 10-163] Analyzing VHDL file "D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sim_1/new/taskMonitor_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity taskMonitor_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Vivado Simulator 2017.4 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved. Running: D:/programme/Vivado/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto c9bbfa03168d44b493828990a9769180 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot taskMonitor_tb_behav xil_defaultlib.taskMonitor_tb -log elaborate.log  Using 2 slave threads. Starting static elaboration ERROR: [VRFC 10-2335] case statement does not cover all choices. 'others' clause is needed [D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sources_1/new/taskMonitor.vhd:114] ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit taskmonitor_tb in library work failed. 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-99] Step results log file:'D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 5 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (A, G)
+// a (cj): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cj)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-2335] case statement does not cover all choices. 'others' clause is needed [D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sources_1/new/taskMonitor.vhd:114]. ]", 6, false); // ah (O, cj)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\Mes_dossiers\Documents\Travail\Master\M2\SOC\Projet_SOC\Projet_SOC.srcs\sources_1\new\taskMonitor.vhd;-;;-;16;-;line;-;114;-;;-;16;-;"); // ah (O, cj)
+// Elapsed time: 13 seconds
+selectCodeEditor("taskMonitor.vhd", 467, 403); // cd (w, cj)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, cj)
+selectMenuItem(RDIResourceCommand.RDICommands_REDO, "Redo"); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, cj)
+selectCodeEditor("taskMonitor.vhd", 448, 313); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 33 seconds
+selectCodeEditor("taskMonitor.vhd", 141, 348); // cd (w, cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 7, false); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 2); // u (O, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cj):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'taskMonitor_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj taskMonitor_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sources_1/new/taskMonitor.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity taskMonitor INFO: [VRFC 10-163] Analyzing VHDL file "D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sim_1/new/taskMonitor_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity taskMonitor_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Built simulation snapshot taskMonitor_tb_behav 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 855.340 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "taskMonitor_tb_behav -key {Behavioral:sim_1:Functional:taskMonitor_tb} -tclbatch {taskMonitor_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2017.4 
+// Elapsed time: 130 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (e)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// Elapsed time: 57 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (e)
+// 'd' command handler elapsed time: 187 seconds
+closeMainWindow("Projet_SOC - [D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.xpr] - Vivado 2017.4"); // cj
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit Vivado. If you choose to abort background task and exit immediately, you will lose all unsaved changes to project. (Background Task)'

@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Jan 19 09:44:26 2021
+# Process ID: 3704
+# Current directory: H:/Documents/travail/System-On-Chip/Rubi/Projet_SOC/Projet_SOC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14184 H:\Documents\travail\System-On-Chip\Rubi\Projet_SOC\Projet_SOC\Projet_SOC.xpr
+# Log file: H:/Documents/travail/System-On-Chip/Rubi/Projet_SOC/Projet_SOC/vivado.log
+# Journal file: H:/Documents/travail/System-On-Chip/Rubi/Projet_SOC/Projet_SOC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/Documents/travail/System-On-Chip/Rubi/Projet_SOC/Projet_SOC/Projet_SOC.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 839.707 ; gain = 135.109
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open H:/Documents/travail/System-On-Chip/Rubi/Projet_SOC/Projet_SOC/Projet_SOC.srcs/sources_1/new/select_timer.vhd w ]
+add_files H:/Documents/travail/System-On-Chip/Rubi/Projet_SOC/Projet_SOC/Projet_SOC.srcs/sources_1/new/select_timer.vhd
+update_compile_order -fileset sources_1
+add_files -norecurse H:/Documents/travail/System-On-Chip/Rubi/Projet_SOC/Projet_SOC/Projet_SOC.srcs/sources_1/new/select_timer.vhd
+WARNING: [filemgmt 56-12] File 'H:/Documents/travail/System-On-Chip/Rubi/Projet_SOC/Projet_SOC/Projet_SOC.srcs/sources_1/new/select_timer.vhd' cannot be added to the project because it already exists in the project, skipping this file
+add_files -norecurse H:/Documents/travail/System-On-Chip/Rubi/Projet_SOC/Projet_SOC/Projet_SOC.srcs/sources_1/new/select_timer.vhd
+WARNING: [filemgmt 56-12] File 'H:/Documents/travail/System-On-Chip/Rubi/Projet_SOC/Projet_SOC/Projet_SOC.srcs/sources_1/new/select_timer.vhd' cannot be added to the project because it already exists in the project, skipping this file
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 19 11:20:31 2021...

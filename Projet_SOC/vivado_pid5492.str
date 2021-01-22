@@ -1,0 +1,240 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 5492
+License: Customer
+
+Current time: 	Thu Jan 21 21:19:34 CET 2021
+Time zone: 	Central European Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 15 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/programme/Vivado/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	D:/programme/Vivado/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	Lannuzel
+User home directory: C:/Users/Lannuzel
+User working directory: D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC
+User country: 	FR
+User language: 	fr
+User locale: 	fr_FR
+
+RDI_BASEROOT: D:/programme/Vivado/Vivado
+HDI_APPROOT: D:/programme/Vivado/Vivado/2017.4
+RDI_DATADIR: D:/programme/Vivado/Vivado/2017.4/data
+RDI_BINDIR: D:/programme/Vivado/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/Lannuzel/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/Lannuzel/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/Lannuzel/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	D:/programme/Vivado/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/vivado.log
+Vivado journal file location: 	D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/vivado.jou
+Engine tmp dir: 	D:/mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/.Xil/Vivado-5492-DESKTOP-7CVBQJS
+
+GUI allocated memory:	187 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 539 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 48 MB (+47509kb) [00:00:10]
+// [Engine Memory]: 478 MB (+349338kb) [00:00:10]
+// bs (cj):  Open Project : addNotify
+// Opening Vivado Project: D:\Mes_dossiers\Documents\Travail\Master\M2\SOC\Projet_SOC\Projet_SOC.xpr. Version: Vivado v2017.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.xpr 
+// [GUI Memory]: 56 MB (+5701kb) [00:00:11]
+// [Engine Memory]: 510 MB (+8671kb) [00:00:11]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 565 MB (+30799kb) [00:00:14]
+// [GUI Memory]: 59 MB (+947kb) [00:00:15]
+// [GUI Memory]: 69 MB (+6829kb) [00:00:16]
+// [Engine Memory]: 597 MB (+4160kb) [00:00:16]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/programme/Vivado/Vivado/2017.4/data/ip'. 
+// [GUI Memory]: 76 MB (+3921kb) [00:00:17]
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 66 MB. Current time: 1/21/21 9:19:39 PM CET
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 791.281 ; gain = 95.711 
+// Project name: Projet_SOC; location: D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC; part: xc7z020clg484-1
+// [GUI Memory]: 80 MB (+476kb) [00:00:18]
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// [Engine Memory]: 632 MB (+5604kb) [00:00:25]
+// PAPropertyPanels.initPanels (taskMonitor.vhd) elapsed time: 0.2s
+// [GUI Memory]: 85 MB (+505kb) [00:00:26]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taskMonitor(Behavioral) (taskMonitor.vhd)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, taskMonitor(Behavioral) (taskMonitor.vhd)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectCodeEditor("taskMonitor.vhd", 106, 456); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 112, 433); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 94, 455); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 94, 455); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 58 seconds
+selectCodeEditor("taskMonitor.vhd", 122, 299); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 169, 211); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 167, 234); // cd (w, cj)
+// Elapsed time: 11 seconds
+selectCodeEditor("taskMonitor.vhd", 6, 247); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 350, 243); // cd (w, cj)
+typeControlKey((HResource) null, "taskMonitor.vhd", 'c'); // cd (w, cj)
+typeControlKey((HResource) null, "taskMonitor.vhd", 'c'); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 124, 225); // cd (w, cj)
+typeControlKey((HResource) null, "taskMonitor.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 278, 129); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 276, 152); // cd (w, cj)
+typeControlKey((HResource) null, "taskMonitor.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 149, 437); // cd (w, cj)
+typeControlKey((HResource) null, "taskMonitor.vhd", 'v'); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+selectCodeEditor("taskMonitor.vhd", 225, 257); // cd (w, cj)
+// [GUI Memory]: 89 MB (+133kb) [00:03:13]
+// Elapsed time: 54 seconds
+selectCodeEditor("taskMonitor.vhd", 129, 390); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 156, 401); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 81, 351); // cd (w, cj)
+// Elapsed time: 30 seconds
+selectCodeEditor("taskMonitor.vhd", 115, 383); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 113, 412); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 121, 404); // cd (w, cj)
+// Elapsed time: 12 seconds
+selectCodeEditor("taskMonitor.vhd", 393, 200); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 360, 201); // cd (w, cj)
+// Elapsed time: 12 seconds
+selectCodeEditor("taskMonitor.vhd", 137, 227); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 95 MB (+1786kb) [00:05:22]
+// Elapsed time: 59 seconds
+selectCodeEditor("taskMonitor.vhd", 167, 144); // cd (w, cj)
+typeControlKey((HResource) null, "taskMonitor.vhd", 'c'); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 97, 463); // cd (w, cj)
+typeControlKey((HResource) null, "taskMonitor.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 147, 468); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 271, 393); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 277, 398); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 277, 398, false, false, false, false, true); // cd (w, cj) - Double Click
+typeControlKey((HResource) null, "taskMonitor.vhd", 'c'); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 145, 468); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 142, 465); // cd (w, cj)
+typeControlKey((HResource) null, "taskMonitor.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 274, 468); // cd (w, cj)
+// Elapsed time: 11 seconds
+selectCodeEditor("taskMonitor.vhd", 96, 197); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 84, 200); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 84, 200, false, false, false, false, true); // cd (w, cj) - Double Click
+typeControlKey((HResource) null, "taskMonitor.vhd", 'c'); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 253, 400); // cd (w, cj)
+typeControlKey((HResource) null, "taskMonitor.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 362, 329); // cd (w, cj)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 56 seconds
+selectCodeEditor("taskMonitor.vhd", 318, 414); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 328, 399); // cd (w, cj)
+// Elapsed time: 14 seconds
+selectCodeEditor("taskMonitor.vhd", 359, 365); // cd (w, cj)
+selectCodeEditor("taskMonitor.vhd", 370, 281); // cd (w, cj)
+typeControlKey(null, null, 'z');
+selectCodeEditor("taskMonitor.vhd", 394, 283); // cd (w, cj)
+// Elapsed time: 13 seconds
+selectCodeEditor("taskMonitor.vhd", 448, 352); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 101 MB (+1454kb) [00:08:34]
+// Elapsed time: 67 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 8); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 9); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, chronometer_tb(Behavioral) (chronometer_tb.vhd)]", 11, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, chronometer_tb(Behavioral) (chronometer_tb.vhd)]", 11, true, false, false, false, true, false); // B (D, cj) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, cj)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top chronometer_tb [get_filesets sim_1] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// bs (cj):  Set as Top : addNotify
+// Tcl Message: set_property top_lib xil_defaultlib [get_filesets sim_1] 
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Set as Top"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cj):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 664 MB (+624kb) [00:08:53]
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'chronometer_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim' 
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 46 MB. Current time: 1/21/21 9:28:17 PM CET
+// Tcl Message: "xvhdl --incr --relax -prj chronometer_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.srcs/sim_1/new/chronometer_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity chronometer_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim' 
+// Tcl Message:  ****** Webtalk v2017.4 (64-bit)   **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017   **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017     ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.  source D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim/xsim.dir/chronometer_tb_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [Common 17-206] Exiting Webtalk at Thu Jan 21 21:28:24 2021... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 898.484 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "chronometer_tb_behav -key {Behavioral:sim_1:Functional:chronometer_tb} -tclbatch {chronometer_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2017.4 
+// Elapsed time: 44 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (e)
+// 'd' command handler elapsed time: 44 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, chronometer_tb(Behavioral) (chronometer_tb.vhd)]", 11, true, false, false, false, true, false); // B (D, cj) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, cj)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, cj)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, taskMonitor_tb(Behavioral) (taskMonitor_tb.vhd)]", 10, true, false, false, false, true, false); // B (D, cj) - Popup Trigger - Node
+selectCodeEditor("taskMonitor.vhd", 413, 274); // cd (w, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 7); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 7); // B (D, cj)
+selectButton("HStatusBar_ProgressStatusItem_Annuler", "Annuler"); // NullButton (ae, cj)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+closeMainWindow("Projet_SOC - [D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.xpr] - Vivado 2017.4"); // cj
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit Vivado. If you choose to abort background task and exit immediately, you will lose all unsaved changes to project. (Background Task)'
