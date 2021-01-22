@@ -47,17 +47,23 @@ architecture Behavioral of taskMonitor_tb is
 begin
     clk <= not clk after 1 ns;
     reset <= '0', '1' after 29 ns;
-    id <=   std_logic_vector(to_unsigned(0,4));                 --tache 0
-            --std_logic_vector(to_unsigned(1,4)) after 7 ns ;     --tache 1
+    id <=   std_logic_vector(to_unsigned(0,4)),                 --tache 0
+            std_logic_vector(to_unsigned(1,4)) after 6 ns ,     --tache 1
+            std_logic_vector(to_unsigned(0,4)) after 11 ns;     --tache 0
+            
     wcet <= std_logic_vector(to_unsigned(3, 16)),               --tache 0: 3
-            std_logic_vector(to_unsigned(5, 16)) after 7 ns;    --tache 1: 5
+            std_logic_vector(to_unsigned(5, 16)) after 7 ns;   --tache 1: 5
+            
     message <=  std_logic_vector(to_unsigned(0,4)),             --stop
                 std_logic_vector(to_unsigned(2,4)) after 2 ns,  --load
-                std_logic_vector(to_unsigned(1,4)) after 3 ns;  --start 
-               -- std_logic_vector(to_unsigned(3,4)) after 5 ns,  --suspend 
-                --std_logic_vector(to_unsigned(0,4)) after 7 ns,  --stop
-                --std_logic_vector(to_unsigned(2,4)) after 8 ns,  --load
-                --std_logic_vector(to_unsigned(1,4)) after 9 ns ; --start
+                std_logic_vector(to_unsigned(1,4)) after 3 ns,  --start 
+                std_logic_vector(to_unsigned(3,4)) after 5 ns,  --suspend 
+                std_logic_vector(to_unsigned(0,4)) after 7 ns,  --stop
+                std_logic_vector(to_unsigned(2,4)) after 8 ns,  --load
+                std_logic_vector(to_unsigned(1,4)) after 9 ns,  --start
+                std_logic_vector(to_unsigned(3,4)) after 11 ns, --suspend 
+                std_logic_vector(to_unsigned(4,4)) after 13 ns; --resume 
+
 
     iut : entity work.taskMonitor(Behavioral)
     Port map(
