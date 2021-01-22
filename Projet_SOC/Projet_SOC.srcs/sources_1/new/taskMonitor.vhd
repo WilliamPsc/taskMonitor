@@ -38,7 +38,7 @@ architecture Behavioral of taskMonitor is
     type register_array is array ( 3 downto 0 ) of std_logic_vector( 15 downto 0 );
     signal sigtaskwcet : register_array;
 
-    signal curChrono: std_logic_vector(3 downto 0) := (others => '0');  -- pour connaitre sur quelle chrono on est
+    signal curChrono: std_logic_vector(3 downto 0) := (others => '0');  -- pour connaitre sur quel chrono on est
     signal interrupt_timer : std_logic_vector(3 downto 0);
     
     signal curcounter_interupt_test : register_array;

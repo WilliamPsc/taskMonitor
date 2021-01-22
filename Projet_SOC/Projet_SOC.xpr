@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="35" Path="D:/Mes_dossiers/Documents/Travail/Master/M2/SOC/Projet_SOC/Projet_SOC.xpr">
+<Project Version="7" Minor="35" Path="D:/William/Scolaire/Etudes/GitHub/taskMonitor/Projet_SOC/Projet_SOC.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="c9bbfa03168d44b493828990a9769180"/>
@@ -66,13 +66,6 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/taskMonitor.vhd">
         <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/select_timer.vhd">
-        <FileInfo>
-          <Attr Name="UserDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
